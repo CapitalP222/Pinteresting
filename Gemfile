@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.0'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'bootstrap-sass'
-
+gem 'devise', '~> 3.1.0.rc2'
 
 group :development, :test do
      gem 'sqlite3'
