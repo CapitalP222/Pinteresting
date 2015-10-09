@@ -36,7 +36,9 @@ gem 'execjs', '~> 2.6.0'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.1.0.rc2'
-
+gem 'paperclip', '~> 4.2'
+gem 'paperclip-ghostscript', '~> 0.1.0'
+gem 'cocaine'
 group :development, :test do
      gem 'sqlite3'
 end

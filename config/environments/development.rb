@@ -1,4 +1,4 @@
-Rails.application.configure do
+ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
@@ -22,6 +22,7 @@ Rails.application.configure do
   # Raise an error on page load if there are pending migrations.
   config.active_record.migration_error = :page_load
 
+  Paperclip.options[:command_path] = 'C:\Program Files\ImageMagick-6.9.2-Q16'
   # Debug mode disables concatenation and preprocessing of assets.
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
