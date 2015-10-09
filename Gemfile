@@ -39,7 +39,7 @@ gem 'devise', '~> 3.1.0.rc2'
 gem 'paperclip', '~> 4.2'
 gem 'paperclip-ghostscript', '~> 0.1.0'
 gem 'cocaine'
-gem 'aws-sdk', '~> 2.1.23'
+gem 'aws-sdk', '< 2.0'
 
 group :development, :test do
      gem 'sqlite3'
